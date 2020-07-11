@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task13.task1306"\n\n有问题的 initializeIdAndName
+
+1.考虑一下程序出了什么问题。
+2.在 User 类中实现 initializeIdAndName 方法。
+3.User 类的 initializeIdAndName 方法必须返回一个 User。
+4.更正该程序，使其能够编译并运行。
+
+
+Requirements:
+1.	DBObject 接口必须声明，但不实现 initializeIdAndName 方法。
+2.	在 User 类中实现 initializeIdAndName 方法。
+3.	User 类的 initializeIdAndName 方法必须返回一个 User。
+4.	initializeIdAndName 方法必须将 User 对象的 id 和 name 字段设置为传递的参数，然后返回该对象。
+
+

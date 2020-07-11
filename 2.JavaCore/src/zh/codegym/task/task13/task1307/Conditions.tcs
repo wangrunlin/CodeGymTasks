@@ -1,0 +1,12 @@
+taskKey="zh.codegym.task.task13.task1307"\n\n参数化的接口
+
+使用 String 参数让 StringObject 类实现 SimpleObject 接口。
+
+
+Requirements:
+1.	StringObject 类必须实现 SimpleObject 接口。
+2.	必须使用 String 参数实现 StringObject 类中的 SimpleObject 接口。
+3.	StringObject 类必须实现 SimpleObject 接口的 getInstance 方法。
+4.	不要创建其他类或接口。
+
+

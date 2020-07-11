@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task07.task0725"\n\n移动一个 static 修饰符
+
+移动一个 static 修饰符以使示例编译。
+
+
+Requirements:
+1.	程序不得从键盘读取数据。
+2.	该类必须包含变量 A。
+3.	该类必须包含变量 B。
+4.	该类必须包含变量 C。
+5.	该类必须包含 main 方法。
+6.	该类必须包含 getValue 方法。
+7.	该类必须包含 4 个 static 修饰符（变量和方法）。
+
+

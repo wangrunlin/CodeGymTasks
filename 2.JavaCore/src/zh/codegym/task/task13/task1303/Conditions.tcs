@@ -1,0 +1,12 @@
+taskKey="zh.codegym.task.task13.task1303"\n\n不要将啤酒与可乐混合
+
+实现 Beer 和 Cola 类中的 Drink 接口。
+
+
+Requirements:
+1.	Beer 类必须实现 Drink 接口。
+2.	Cola 类必须实现 Drink 接口。
+3.	Beer 类必须实现 Drink 接口的所有方法。
+4.	Cola 类必须实现 Drink 接口的所有方法。
+
+

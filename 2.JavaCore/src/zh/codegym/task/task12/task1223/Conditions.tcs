@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task12.task1223"\n\n又是猫...
+
+在 Cat 类中添加一个方法，让程序不显示任何内容。
+
+
+Requirements:
+1.	Solution 类必须包含 Pet 类。
+2.	Solution 类必须包含 Cat 类。
+3.	Cat 类必须继承 Pet 类。
+4.	Pet 类只能包含两个方法：getName() 和 setName()。
+5.	在 Cat 类中添加一个方法，让程序不显示任何内容。
+6.	程序必须显示在 pet 上调用 getName() 方法的结果。
+
+

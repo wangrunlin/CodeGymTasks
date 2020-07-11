@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task13.task1304"\n\nSelectable 和 Updatable
+
+创建一个实现 Selectable 和 Updatable 接口的 Screen 类。
+不要忘记实现这些方法！
+
+
+Requirements:
+1.	Screen 类必须实现 Selectable 接口。
+2.	Screen 类必须实现 Updatable 接口。
+3.	Screen 类必须实现 Selectable 接口的所有方法。
+4.	Screen 类必须实现 Updatable 接口的所有方法。
+
+

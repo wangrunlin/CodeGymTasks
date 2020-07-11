@@ -1,0 +1,18 @@
+taskKey="zh.codegym.task.task12.task1224"\n\n未知动物
+
+编写一个方法，该方法将确定传递给它的对象的类型。
+程序应显示如下内容之一：
+“猫”、“老虎”、“狮子”、“公牛”或“动物”。
+
+
+Requirements:
+1.	Solution 类必包含 Cat、Tiger、Lion、Bull 和 Pig 类。
+2.	Solution 类必须包含 String getObjectType(Object o) 方法。
+3.	如果传递了 Cat 对象，则 getObjectType() 方法必须返回&ldquo;猫&rdquo;。
+4.	如果传递了 Tiger 对象，则 getObjectType() 方法必须返回&ldquo;老虎&rdquo;。
+5.	如果传递了 Lion 对象，则 getObjectType() 方法必须返回&ldquo;狮子&rdquo;。
+6.	如果传递了 Bull 对象，则 getObjectType() 方法必须返回&ldquo;公牛&rdquo;。
+7.	如果传递了其他对象，则 getObjectType() 方法必须返回&ldquo;动物&rdquo;。
+8.	程序应显示调用 getObjectType() 方法的结果。
+
+

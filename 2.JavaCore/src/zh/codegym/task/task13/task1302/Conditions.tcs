@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task13.task1302"\n\n啤酒 -第 2 部分：恢复。
+
+将 Drink 接口添加到 AlcoholicBeer 类并实现其所有方法。
+
+
+Requirements:
+1.	AlcoholicBeer 类必须实现 Drink 接口。
+2.	AlcoholicBeer 类必须实现 Drink 接口的所有方法。
+3.	AlcoholicBeer 类中只能有两种方法。
+4.	因为啤酒中含有酒精，所以 isAlcoholic 方法必须返回 true。
+5.	根据 isAlcoholic 方法返回的内容，程序必须在屏幕上显示相应的饮料类型。
+
+

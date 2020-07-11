@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task13.task1301"\n\n啤酒
+
+1.想想要在 BeerLover 类中实现哪个接口。
+2.将该接口添加到 BeerLover 类并实现其所有方法。
+3.想想 READY_TO_GO_HOME 变量与 isReadyToGoHome 方法之间的关系。
+4.让 isReadyToGoHome 方法返回 READY_TO_GO_HOME 变量的值。
+
+
+Requirements:
+1.	BeerLover 类必须实现 Alcoholic 接口。
+2.	BeerLover 类不得直接实现 Drinker 接口（只能通过 Alcoholic 间接实现）。
+3.	BeerLover 类必须实现所有 Alcoholic 接口的方法。
+4.	BeerLover 类必须实现 Drinker 接口的所有方法。
+5.	isReadyToGoHome 方法必须返回 READY_TO_GO_HOME 变量的值。
+
+

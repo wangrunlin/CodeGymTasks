@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task12.task1229"\n\nCTO 类的父级
+
+在 CTO 类中添加父类，让该类不为 abstract。
+你不得在 CTO 类中添加或实现任何方法。
+
+
+Requirements:
+1.	Solution 类必须包含具有 void workHard() 方法的 Businessman 接口。
+2.	Solution 类必须包含非抽象的 CTO 类。
+3.	CTO 类必须实现 Businessman 接口。
+4.	CTO 类不得包含任何方法。
+5.	Solution 类必须包含一个其他类。
+6.	CTO 类必须继承其他类。
+7.	其他类必须包含一个方法。
+
+

@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task13.task1312"\n\n代码无法自行修复
+
+修复代码以使程序运行并显示“我翻译俄语”。
+不要更改 main 方法！
+
+
+Requirements:
+1.	程序应显示&ldquo;我翻译俄语&rdquo;。
+2.	translate 方法应显示&ldquo;我翻译俄语&rdquo;。
+3.	程序必须正常无误运行。
+4.	main 方法应显示调用 Translator 对象的 translate 方法的结果。
+
+

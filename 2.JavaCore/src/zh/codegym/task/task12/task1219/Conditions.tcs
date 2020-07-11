@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task12.task1219"\n\n创建一个人
+
+我们现有 public CanFly、CanRun 和 CanSwim 接口。
+将这些接口添加到 Human、Duck、Penguin 和 Airplane 类。
+
+
+Requirements:
+1.	Solution 类必须包含只有一个 fly() 方法的 CanFly 接口。
+2.	Solution 类必须包含只有一个 run() 方法的 CanRun 接口。
+3.	Solution 类必须包含只有一个 swim() 方法的 CanSwim 接口。
+4.	人要能跑步和游泳。
+5.	鸭子应该能够飞行、游泳和奔跑。
+6.	企鹅必须能够游泳和奔跑。
+7.	飞机必须能够飞行和奔跑（以某种方式离开跑道！）
+
+

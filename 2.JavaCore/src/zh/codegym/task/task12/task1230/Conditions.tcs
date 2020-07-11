@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task12.task1230"\n\n进入前十
+
+再添加一个方法，让程序显示数字 10。
+提示：
+使用方法重载。
+
+
+Requirements:
+1.	Solution 类必须包含三个方法。
+2.	重载的 transformValue 方法必须让传递给它的数字翻倍。
+3.	不要更改 i 变量的类型和值。
+4.	不要更改 x 变量的类型和值。
+5.	不要更改屏幕输出命令。
+6.	main() 方法应调用一次 transformValue 方法。
+7.	程序应显示数字 10。
+
+

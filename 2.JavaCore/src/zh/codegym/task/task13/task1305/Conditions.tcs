@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task13.task1305"\n\n四个错误
+
+更正程序的 4 个错误以使它编译。
+
+
+Requirements:
+1.	接口中声明的变量必须具有广泛的访问级别 (public)。
+2.	你只能扩展一个类。你可以使用 implements 关键字来实现接口。
+3.	必须使用 static 修饰符声明 Hobby 类。
+4.	你无需创建 Dream 对象即可访问 HOBBY 变量。
+5.	不要更改接口声明。
+
+

@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task12.task1220"\n\nHuman 类以及 CanRun 和 CanSwim 接口
+
+编写 public Human 类以及 public CanRun 和 CanSwim 接口。
+在每个接口中添加一个方法。
+将这些接口添加到 Human 类，但不要实现这些方法。
+将 Human 类声明为 abstract。
+
+
+Requirements:
+1.	Solution 类必须包含只有一个方法的 CanRun 接口。
+2.	Solution 类必须包含只有一个方法的 CanSwim 接口。
+3.	Solution 类必须包含 Human 类。
+4.	Human 类必须实现 CanRun 和 CanSwim 接口。
+5.	Human 类必须为 abstract。
+6.	Human 类不能包含任何方法。
+
+

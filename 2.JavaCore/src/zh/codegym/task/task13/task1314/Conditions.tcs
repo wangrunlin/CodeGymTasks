@@ -1,0 +1,12 @@
+taskKey="zh.codegym.task.task13.task1314"\n\n大狐狸还是狐狸
+
+1.修复 BigFox 类，以便该程序编译。
+
+
+Requirements:
+1.	Fox 类必须实现 Animal 接口。
+2.	Fox 类只能实现一个方法 (getName)。
+3.	Animal 接口必须声明一个 getColor 方法。
+4.	BigFox 类必须继承 Fox 类。
+
+

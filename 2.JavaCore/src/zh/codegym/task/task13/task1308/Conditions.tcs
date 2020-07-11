@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task13.task1308"\n\n嘿，你还活着吗？
+
+1.创建 Person 接口。
+2.添加 isAlive() 方法。此方法可检查此人是否还活着。
+3.想想该方法应返回的类型。
+4.创建 Presentable 接口。
+5.让 Presentable 接口继承 Person 接口。
+
+
+Requirements:
+1.	Solution 类必须声明一个 Person 接口。
+2.	Solution 类必须声明一个 Presentable 接口。
+3.	Presentable 接口必须继承 Person 接口。
+4.	Person 接口必须声明一个 isAlive 方法。
+5.	isAlive 方法的返回类型只能有两个可能的值。
+
+

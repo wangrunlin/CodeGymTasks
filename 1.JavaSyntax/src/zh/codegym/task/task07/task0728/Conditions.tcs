@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task07.task0728"\n\n降序
+
+任务：编写程序，该程序从键盘读取 20 个数字并以降序显示它们。
+
+
+Requirements:
+1.	程序应从键盘读取 20 个整数。
+2.	程序应显示 20 个数字。
+3.	Solution 类必须包含 public static void sort(int[] array) 方法。
+4.	main 方法应调用 sort 方法。
+5.	sort 方法应对所传递的数组进行降序排序。
+
+

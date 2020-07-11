@@ -1,0 +1,19 @@
+taskKey="zh.codegym.task.task12.task1226"\n\n爬、飞行和跑
+
+1.在 Solution 类中，创建一个包含 void fly() 方法的 public CanFly 接口。
+2.在 Solution 类中，创建一个包含 void climb() 方法的 public CanClimb 接口。
+3.在 Solution 类中，创建一个包含 void run() 方法的 public CanRun 接口。
+4.使用常识决定要在每个类中添加哪些接口。
+5.将接口添加到 Cat、Dog、Tiger 和 Duck 类。
+
+
+Requirements:
+1.	Solution 类必须包含具有 void fly() 方法的 CanFly 接口。
+2.	Solution 类必须包含具有 void climb() 方法的 CanClimb 接口。
+3.	Solution 类必须包含具有 void run() 方法的 CanRun 接口。
+4.	Cat 对象必须能够奔跑（支持 CanRun 接口）和爬树（支持 CanClimb 接口）。
+5.	Dog 对象必须能够奔跑（支持 CanRun 接口）。
+6.	Tiger 类必须是 Cat。
+7.	Duck 对象必须能够奔跑（支持 CanRun 接口）和分型（支持 CanFly 接口）。
+
+

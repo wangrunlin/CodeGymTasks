@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task12.task1228"\n\nHuman 类的接口
+
+在 Human 类中尽可能多添加接口，但要确保它不会成为一个抽象类。
+你不能在 Human 类中添加方法。
+
+
+Requirements:
+1.	Solution 类必须包含具有 void workLazily() 方法的 Employee 接口。
+2.	Solution 类必须包含具有 void workHard() 方法的 Businessman 接口。
+3.	Solution 类必须包含具有 void workLazily() 方法的 Secretary 接口。
+4.	Solution 类必须包含具有 void workVeryHard() 方法的 Miner 接口。
+5.	Solution 类必须包含具有如下方法的 Human 类：void workHard() 和 void workLazily()。
+6.	Human 类必须实现三个接口。
+
+

@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task13.task1311"\n\n招一个翻译吧
+
+1.创建一个继承 Translator 类的 RussianTranslator 类。
+2.实现所有抽象方法。
+3.想想 getLanguage 方法应该返回的内容。
+4.在 RussianTranslator 对象上调用 translate 方法时，该程序应显示“我翻译俄语”。
+
+
+Requirements:
+1.	RussianTranslator 类必须在 Solution 类内部。
+2.	RussianTranslator 类必须继承 Translator 类。
+3.	必须实现 Translator 类继承的所有抽象方法。
+4.	getLanguage 方法必须返回一个满足任务条件的 String 值。
+5.	在 RussianTranslator 对象上调用 translate 方法时，main 方法应显示&ldquo;我翻译俄语&rdquo;。
+
+

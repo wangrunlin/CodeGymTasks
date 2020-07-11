@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task12.task1227"\n\nDuck、Penguin 和 Toad 类的 CanFly、CanRun 和 CanSwim
+
+已为你编写 CanFly、CanSwim 和 CanRun 接口。
+将这些接口添加到 Duck、Penguin 和 Toad 类。
+
+
+Requirements:
+1.	Solution 类必须包含具有 void fly() 方法的 CanFly 接口。
+2.	Solution 类必须包含具有 void swim() 方法的 CanSwim 接口。
+3.	Solution 类必须包含具有 void run() 方法的 CanRun 接口。
+4.	Solution 类必须包含 Duck、Penguin 和 Toad 类。
+5.	Duck 对象必须能够飞行（支持 CanFly 接口）、奔跑（支持 CanRun 接口）以及游泳（支持 CanSwim 接口）。
+6.	Penguin 对象必须能够奔跑（支持 CanRun 接口）和游泳（支持 CanSwim 接口）。
+7.	Toad 对象必须能够游泳（支持 CanSwim 接口）。
+
+

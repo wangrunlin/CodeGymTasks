@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task12.task1231"\n\n无用的抽象
+
+你要在正确的位置放置 abstract 关键字，让程序可以编译。
+按需添加和删除 abstract。
+
+
+Requirements:
+1.	Pegasus 类必须实现 CanFly 接口。
+2.	Pegasus 类必须继承 Horse 类。
+3.	SwimmingPegasus 类必须继承 Pegasus 类。
+4.	你要能够创建 Horse 对象。
+5.	你要能够创建 Pegasus 对象。
+6.	不得实现 SwimmingPegasus 类的 swim() 方法。
+
+

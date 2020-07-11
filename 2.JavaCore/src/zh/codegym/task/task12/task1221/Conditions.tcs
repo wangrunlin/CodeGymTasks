@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task12.task1221"\n\n人人心中都住着一只猫...
+
+重写 Cat 类的 getName 方法，以便在屏幕上显示如下信息：“我是一只猫”。
+
+
+Requirements:
+1.	Solution 类必须包含 Pet 类。
+2.	Solution 类必须包含 Cat 类。
+3.	Cat 类必须继承 Pet 类。
+4.	Pet 类中只能包含一个名为 getName() 的方法。
+5.	Cat 类必须重写 getName() 方法。
+6.	程序必须显示在 pet 上调用 getName() 方法的结果。
+
+

@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task13.task1310"\n\n未来的经理
+
+1.将 Secretary 和 Boss 接口添加到 Manager 和 Subordinate 类。每个类一个接口。想想哪个类应添加哪个接口。
+2.让 Secretary 和 Boss 接口继承 Person 和 HasManagementPotential 接口，以便
+Manager 和 Subordinate 类中的所有方法在一个接口中声明。
+
+
+Requirements:
+1.	Manager 类必须实现适当的接口（Secretary 或 Boss）。
+2.	Subordinate 类必须实现适当的接口（Secretary 或 Boss）。
+3.	Secretary 是一个 Person。
+4.	Boss 是可以使别人努力工作的 Person (HasManagementPotential)。
+
+

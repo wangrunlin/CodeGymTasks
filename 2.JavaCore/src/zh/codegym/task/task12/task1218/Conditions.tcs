@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task12.task1218"\n\n进食、飞行和移动
+
+public CanFly、CanMove 和 CanEat 接口已编写完成。
+将这些接口添加到 Dog、Car、Duck 和 Airplane 类。
+
+
+Requirements:
+1.	Solution 类必须包含只有一个 fly() 方法的 CanFly 接口。
+2.	Solution 类必须包含只有一个 move() 方法的 CanMove 接口。
+3.	Solution 类必须包含只有一个 eat() 方法的 CanEat 接口。
+4.	狗必须能够四处走动并进食。
+5.	汽车必须能够移动。
+6.	飞机必须能够移动和飞行。
+7.	鸭子应该能够移动、飞行和进食。
+
+

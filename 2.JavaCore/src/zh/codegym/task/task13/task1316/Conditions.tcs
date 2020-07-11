@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task13.task1316"\n\n错误的行
+
+从 Button 接口删除所有不正确的行。
+
+
+Requirements:
+1.	必须在 Solution 类内部声明 SimpleObject 接口。
+2.	必须在 Solution 类内部声明 Button 接口。
+3.	不要更改 main 方法。
+4.	NAME 常量的声明必须始终在 Button 接口中。
+5.	onPress 方法的正确声明必须始终在 Button 接口中。
+
+

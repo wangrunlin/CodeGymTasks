@@ -1,0 +1,12 @@
+taskKey="zh.codegym.task.task12.task1233"\n\n同形体即将来临
+
+编写返回数组的最小值及其位置（索引）的方法。
+
+
+Requirements:
+1.	Solution 类必须包含 Pair 类。
+2.	Solution 类必须包含两个方法。
+3.	Solution 类必须包含 getMinimumAndIndex() 方法。
+4.	getMinimumAndIndex() 方法必须返回数组的最小值及其位置（索引）。
+
+

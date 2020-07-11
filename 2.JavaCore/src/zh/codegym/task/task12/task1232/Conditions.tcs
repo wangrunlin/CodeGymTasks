@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task12.task1232"\n\n添加新功能
+
+使用 Horse 类和 CanFly 接口创建 Pegasus 类。
+
+
+Requirements:
+1.	Solution 类必须包含具有 fly() 方法的 CanFly 接口。
+2.	Solution 类必须包含具有 run() 方法的 Horse 类。
+3.	Solution 类必须包含 Pegasus 类。
+4.	Pegasus 类必须继承 Horse 类。
+5.	Pegasus 类必须实现 CanFly 接口。
+
+

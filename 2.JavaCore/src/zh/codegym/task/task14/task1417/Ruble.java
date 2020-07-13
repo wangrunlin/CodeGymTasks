@@ -1,0 +1,17 @@
+package zh.codegym.task.task14.task1417;
+
+public class Ruble extends Money {
+    public Ruble(double amount) {
+        super(amount);
+    }
+
+    @Override
+    public String getCurrencyName() {
+        return "RUB";
+    }
+
+    public String getCurrencyName(double amount) {
+        new Ruble(amount);
+        return "RUB";
+    }
+}

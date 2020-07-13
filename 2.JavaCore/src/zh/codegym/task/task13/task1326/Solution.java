@@ -5,8 +5,6 @@ package zh.codegym.task.task13.task1326;
 */
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Solution {
     public static void main(String[] args) {
@@ -15,18 +13,21 @@ public class Solution {
 //            OutputStream outputStream = new FileOutputStream(new File(reader.readLine()));
             InputStream inputStream = new FileInputStream(new File(reader.readLine()));
 
-            ArrayList<Integer> list = new ArrayList<Integer>();
+//            reader = new BufferedReader(new InputStreamReader(inputStream));
+
+//            ArrayList<Integer> list = new ArrayList<Integer>();
 //            byte[] array = new byte[inputStream.available()];
+
             while (inputStream.available() > 0) {
                 int n = inputStream.read();
-                if (n % 2 ==0)
-                    list.add(n);
+//                String s = reader.readLine();
+                System.out.println(n);
             }
 
             inputStream.close();
 
-            for (int i : list)
-                System.out.println(i);
+//            for (int i : list)
+//                System.out.println(i);
 
 //            for (int i = 0; i < list.size() - 1 ; i++) {
 //                while (list.get(i) > list.get(i + 1)) {
@@ -40,4 +41,15 @@ public class Solution {
             System.out.println(e);
         }
     }
+
+//    public static int[] toNumber(int[] array) {
+//        int[] result = new int[array.length];
+//
+//        for (int i = 0; i < array.length; i++) {
+//
+//        }
+//
+//
+//        return null;
+//    }
 }

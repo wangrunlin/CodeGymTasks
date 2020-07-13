@@ -1,0 +1,12 @@
+taskKey="zh.codegym.task.task14.task1402"\n\n你成功了！
+
+更正‘Cat cat = new Cat();’行，让程序显示 "你成功了！"
+
+
+Requirements:
+1.	Cat 类必须实现 CanMove 接口。
+2.	Cat 类必须是 Tomcat 类的父类。
+3.	变量 cat 引用的对象应同时实现 CanMove，并且是 Cat 和 Tomcat 类。
+4.	程序必须显示以下内容：&quot;你成功了！&quot;
+
+

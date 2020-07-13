@@ -1,0 +1,12 @@
+taskKey="zh.codegym.task.task14.task1401"\n\n你成功了！
+
+更正 main 方法中的‘Object animal = new Pet();’行，让程序显示 "你成功了！"
+
+
+Requirements:
+1.	Cat 类必须继承 Pet 类。
+2.	Tiger 类必须继承 Cat 类。
+3.	Object 变量 animal 引用的对象应同时是 Pet、Cat 和 Tiger 类的对象。
+4.	程序必须显示以下内容：&quot;你成功了！&quot;
+
+

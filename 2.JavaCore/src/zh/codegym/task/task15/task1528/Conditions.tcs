@@ -1,0 +1,12 @@
+taskKey="zh.codegym.task.task15.task1528"\n\nOOP：欧元也是钱
+
+更正 Euro 类以避免 StackOverflowError。
+
+
+Requirements:
+1.	Euro 类必须是 Money 类的后代。
+2.	Euro 类必须实现 getAmount 方法。
+3.	Euro 类的 getAmount 方法必须返回字段 amount 的值。
+4.	程序运行时不应有任何异常或错误。
+
+

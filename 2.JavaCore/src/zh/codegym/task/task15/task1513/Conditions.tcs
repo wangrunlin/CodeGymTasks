@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task15.task1513"\n\n最简单的代码：第 3 部分
+
+简化代码：
+- 删除编译器自动生成的一切内容
+- 删除编译器自动添加的所有类继承
+- 删除自动创建和添加的所有构造方法。
+
+
+Requirements:
+1.	Car 类不应包含显式的无参数构造方法。
+2.	Machine 类不应包含显式的无参数构造方法。
+3.	Car 类必须是 Machine 类的后代。
+4.	该代码不应包含涉及 Object 类的显式继承（扩展 Object）。
+5.	Car 类不得显式继承 Runnable 接口。
+
+

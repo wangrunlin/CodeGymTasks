@@ -4,52 +4,38 @@ package zh.codegym.task.task13.task1326;
 对文件中的偶数进行排序
 */
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Collections;
 
 public class Solution {
     public static void main(String[] args) {
         try {
-            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-//            OutputStream outputStream = new FileOutputStream(new File(reader.readLine()));
-            InputStream inputStream = new FileInputStream(new File(reader.readLine()));
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+            FileInputStream file = new FileInputStream(bufferedReader.readLine());
+            bufferedReader.close();
 
-//            reader = new BufferedReader(new InputStreamReader(inputStream));
+            BufferedReader reader = new BufferedReader(new InputStreamReader(file));
+            ArrayList<Integer> list = new ArrayList<>();
 
-//            ArrayList<Integer> list = new ArrayList<Integer>();
-//            byte[] array = new byte[inputStream.available()];
+            while (reader.ready()) {
+                int temp = Integer.parseInt(reader.readLine());
 
-            while (inputStream.available() > 0) {
-                int n = inputStream.read();
-//                String s = reader.readLine();
-                System.out.println(n);
+                if (temp % 2 == 0)
+                    list.add(temp);
             }
 
-            inputStream.close();
-
-//            for (int i : list)
-//                System.out.println(i);
-
-//            for (int i = 0; i < list.size() - 1 ; i++) {
-//                while (list.get(i) > list.get(i + 1)) {
-//                    list.add(list.get(i));
-//                    list.remove(i);
-//                }
-//            }
-        } catch (FileNotFoundException e) {
-            System.out.println(e);
+            file.close();
+            reader.close();
+            Collections.sort(list);
+            for (int n : list)
+                System.out.println(n);
         } catch (IOException e) {
-            System.out.println(e);
+            e.printStackTrace();
         }
-    }
 
-//    public static int[] toNumber(int[] array) {
-//        int[] result = new int[array.length];
-//
-//        for (int i = 0; i < array.length; i++) {
-//
-//        }
-//
-//
-//        return null;
-//    }
+    }
 }

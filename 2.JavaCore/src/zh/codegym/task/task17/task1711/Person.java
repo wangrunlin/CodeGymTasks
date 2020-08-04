@@ -1,8 +1,7 @@
-package zh.codegym.task.task17.task1710;
+package zh.codegym.task.task17.task1711;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Locale;
 
 public class Person {
     private String name;
@@ -49,8 +48,6 @@ public class Person {
 
     @Override
     public String toString() {
-//        String sex = getSex().equals(Sex.MALE) ? "m" : "f";
-//        String datetime = new SimpleDateFormat("MMM dd yyyy").format(getBirthDate());
         return name + " "  + (getSex().equals(Sex.MALE) ? "m" : "f")
                 + " " + new SimpleDateFormat("MMM dd yyyy").format(getBirthDate());
     }

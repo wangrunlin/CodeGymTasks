@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task20.task2017"\n\n反序列化
+
+将序列化的 A 或 B 对象写入传递给的流。
+反序列化 getOriginalObject 方法中对象。如果发生异常，显示消息并返回 null。
+实现 Serializable 接口（需要时）。
+
+
+Требования:
+1.	B 类必须是 A 类的后代。
+2.	A 类应支持 Serializable 接口。
+3.	B 类不应显式支持 Serializable 接口。
+4.	getOriginalObject 方法必须返回从 ObjectInputStream 接收的 A 对象。
+5.	如果在反序列化尝试期间未接收 A 对象，getOriginalObject 方法必须返回 null。
+6.	如果在尝试反序列化时抛出异常，getOriginalObject 方法必须返回 null。
+
+

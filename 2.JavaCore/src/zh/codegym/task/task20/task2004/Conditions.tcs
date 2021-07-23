@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task20.task2004"\n\n读取 static 字段并将其写入文件
+
+实现 ClassWithStatic 类的文件 IO 的逻辑。
+load 方法必须使用文件中的数据初始化对象，包括 static 字段。
+main 方法未测试。
+
+
+Требования:
+1.	应该可以使用 save/load 方法保存/加载 Solution.ClassWithStatic 对象。
+2.	Solution 类不应支持 Serializable 接口。
+3.	Solution.ClassWithStatic 类不应支持 Serializable 接口。
+4.	Solution.ClassWithStatic 类必须为 public。
+5.	Solution.ClassWithStatic 类不应支持 Externalizable 接口
+
+

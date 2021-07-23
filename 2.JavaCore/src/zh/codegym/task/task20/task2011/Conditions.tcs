@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task20.task2011"\n\n公寓的 Externalizable
+
+在 Apartment 类中实现 Externalizable 接口。
+
+
+Требования:
+1.	Solution.Apartment 类应支持 Externalizable 接口。
+2.	Solution.Apartment 类必须实现带一个 ObjectOutput 参数的 writeExternal 方法。
+3.	Solution.Apartment 类必须实现带一个 ObjectInput 参数的 readExternal 方法。
+4.	writeExternal 方法必须在作为参数传递的 ObjectOutput 对象上调用带 address 参数的 writeObject 方法。
+5.	writeExternal 方法必须在作为参数传递的 ObjectOutput 对象上调用带 year 参数的 writeInt 方法。
+6.	readExternal 方法应从 ObjectInput 对象中正确恢复 address 字段的值。
+7.	readExternal 方法应从 ObjectInput 对象中正确恢复 year 字段的值。
+
+

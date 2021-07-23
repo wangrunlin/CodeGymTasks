@@ -1,0 +1,12 @@
+taskKey="zh.codegym.task.task20.task2007"\n\n如何序列化 CodeGym？
+
+进行操作，让 CodeGym 类可以序列化。
+
+
+Требования:
+1.	CodeGym 类必须位于 Solution 类中。
+2.	CodeGym 类必须为 static。
+3.	CodeGym 类必须为 public。
+4.	必须可以序列化 CodeGym 类。
+
+

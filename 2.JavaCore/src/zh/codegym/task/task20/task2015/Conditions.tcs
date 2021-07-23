@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task20.task2015"\n\n重写序列化
+
+进行操作，让 runner 线程继续在反序列化后运行。
+不要更改 runner 对象的关键字。
+提示：
+在反序列化期间未调用构造方法。仅初始化所有字段。
+
+
+Требования:
+1.	Solution 类应支持 Serializable 接口。
+2.	Solution 类应支持 Runnable 接口。
+3.	Solution 类的 runner 字段必须用 transient 修饰符声明。
+4.	readObject 方法必须使用当前对象作为参数创建新 Thread 对象。
+5.	readObject 方法必须在新 Thread 对象上调用 start 方法。
+
+

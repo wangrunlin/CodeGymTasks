@@ -1,0 +1,22 @@
+taskKey="zh.codegym.task.task20.task2022"\n\n在线程中重写序列化
+
+序列化/反序列化 Solution 类不起作用。
+不更改方法或类签名而修复错误。
+main 方法未测试。
+在 main 方法中自行编写验证代码：
+1) 创建 Solution 类的实例。
+2) 将数据写入 (writeObject)
+3) 序列化 Solution 类 (writeObject(ObjectOutputStream out))
+4) 反序列化，获取新对象
+5) 将数据写入新对象 (writeObject)
+6) 验证文件是否包含来自 Items 2 和 5 的数据
+
+
+Требования:
+1.	stream 字段必须用 transient 修饰符声明。
+2.	writeObject(ObjectOutputStream out) 方法不应调用作为参数传递的 stream 上的 close 方法。
+3.	readObject(ObjectInputStream in) 方法不应调用作为参数传递的 stream 的上 close 方法。
+4.	在 readObject(ObjectInputStream in) 方法中，必须通过使用参数 (fileName, true) 的新 FileOutputStream 对象初始化 stream 字段。
+5.	在 Solution 类构造方法中，必须通过使用参数 (fileName) 的新 FileOutputStream 对象初始化 stream 字段。
+
+

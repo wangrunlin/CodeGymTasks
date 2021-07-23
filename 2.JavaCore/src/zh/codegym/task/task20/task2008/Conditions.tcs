@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task20.task2008"\n\n如何序列化单例模式？
+
+两个反序列化对象（singleton1 和 singleton2）具有不同的内存引用，但这些引用应相同。
+在 Singleton 类中，添加一个方法，以便在反序列化后，对象引用相同（用 Google 搜索它）。
+main 方法未测试。
+
+
+Требования:
+1.	Solution.Singleton 类应支持 Serializable 接口。
+2.	Solution.Singleton 类必须实现不带参数的 readResolve 方法。
+3.	readResolve 方法应返回 singleton (ourInstance)。
+4.	readResolve 方法必须为 private。
+5.	Solution 类必须包含 public static serializeSingletonInstance 方法。
+6.	在反序列化后，对象引用必须相同。
+
+

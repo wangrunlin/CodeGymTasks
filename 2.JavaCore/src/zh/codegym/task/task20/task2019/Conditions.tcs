@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task20.task2019"\n\n更正错误。序列化
+
+在反序列化 Solution 对象后，发现映射 m 无数据 :(
+修复 1 个错误。
+
+
+Требования:
+1.	Solution 类不应包含不带参数的 void Solution 方法。
+2.	Solution 类应包含无参数构造方法。
+3.	Solution 类应包含不带参数的 size 方法。
+4.	Solution 类的 size 方法必须返回 int。
+
+

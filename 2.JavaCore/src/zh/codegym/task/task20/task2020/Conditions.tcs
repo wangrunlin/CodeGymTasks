@@ -1,0 +1,17 @@
+taskKey="zh.codegym.task.task20.task2020"\n\n序列化人员
+
+以标准方式序列化 Person 类。将 transient 修饰符添加到某些字段（如果需要）。
+
+
+Требования:
+1.	Person 类应支持 Serializable 接口。
+2.	fullName 字段必须用 transient 修饰符标记。
+3.	greetingString 字段必须用 transient 修饰符标记。
+4.	outputStream 字段必须用 transient 修饰符标记。
+5.	logger 字段必须用 transient 修饰符标记。
+6.	firstName 字段不得用 transient 修饰符标记。
+7.	lastName 字段不得用 transient 修饰符标记。
+8.	country 字段不得用 transient 修饰符标记。
+9.	sex 字段不得用 transient 修饰符标记。
+
+

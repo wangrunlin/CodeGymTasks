@@ -1,0 +1,13 @@
+taskKey="zh.codegym.task.task20.task2012"\n\nOutputToConsole
+
+OutputToConsole 类必须使用 Externalizable 接口序列化。
+请找到并修复该错误。
+
+
+Требования:
+1.	Solution.OutputToConsole 类应支持 Externalizable 接口。
+2.	OutputToConsole 类必须位于 Solution 类中。
+3.	OutputToConsole 类必须为 public。
+4.	OutputToConsole 类必须为 static。
+
+

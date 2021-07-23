@@ -1,0 +1,12 @@
+taskKey="zh.codegym.task.task20.task2009"\n\n如何序列化 static 字段？
+
+进行操作，让 ClassWithStatic 类可以序列化。
+
+
+Требования:
+1.	ClassWithStatic 类必须位于 Solution 类中。
+2.	ClassWithStatic 类必须为 static。
+3.	Secretary 类必须为 public。
+4.	ClassWithStatic 接口应支持 Serializable 接口。
+
+

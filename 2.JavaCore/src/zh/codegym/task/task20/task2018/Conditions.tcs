@@ -1,0 +1,18 @@
+taskKey="zh.codegym.task.task20.task2018"\n\n找到错误
+
+出于某种原因，在序列化/反序列化 B 对象时发生错误。
+找到问题并修复。
+A 类不应实现 Serializable 和 Externalizable 接口。
+B 类的签名没有错误 :)。
+main 方法中没有错误。
+
+
+Требования:
+1.	B 类必须是 A 类的后代。
+2.	B 类应支持 Serializable 接口。
+3.	A 类不应支持 Serializable 接口。
+4.	A 类不应支持 Externalizable 接口。
+5.	程序必须正常无误执行。
+6.	在反序列化时，应正确恢复 nameA 和 nameB 字段的值。
+
+

@@ -1,0 +1,23 @@
+taskKey="zh.codegym.task.task20.task2014"\n\nSerializable Solution
+
+序列化 Solution 类。
+想想哪些字段你不需要序列化。使用 transient 修饰符标记不需要的字段。
+对象必须始终包含最新的摘要数据。
+main 方法未测试。
+在 main 方法中自行编写验证代码：
+1) 创建文件，打开输入流和输出流;
+2) 创建 Solution 类 (savedObject) 的实例；
+3) 将 savedObject 写入输出流（确保实例在这里）；
+4) 创建带不同参数的 Solution 类的另一个实例；
+5) 从输入流 (loadedObject) 加载对象。
+6) 验证 savedObject.string 等于 loadedObject.string；
+7) 处理异常。
+
+
+Требования:
+1.	pattern 字段必须用 transient 修饰符标记。
+2.	currentDate 字段必须用 transient 修饰符标记。
+3.	temperature 字段必须用 transient 修饰符标记。
+4.	string 字段不得用 transient 修饰符标记。
+
+

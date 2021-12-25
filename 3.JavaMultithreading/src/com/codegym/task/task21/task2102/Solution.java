@@ -19,7 +19,7 @@ public class Solution {
     }
 
     public static boolean isModifierSet(int allModifiers, int specificModifier) {
-        return allModifiers + specificModifier != 9;
+        return (allModifiers & specificModifier) == specificModifier;
     }
 
     private static Method getMainMethod() {

@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task20.task2013"\n\nExternalizable Person
+
+Person 类必须使用 Externalizable 接口序列化。
+更正序列化错误。
+不要更改方法签名。
+
+
+Требования:
+1.	Solution.Person 类应支持 Externalizable 接口。
+2.	readExternal 和 writeExternal 方法必须可以正确序列化和反序列化 Person 对象。
+3.	Solution.Person 类必须包含不带参数的构造方法。
+4.	Solution.Person 类必须包含带三个参数 (String firstName, String lastName, int age) 的构造方法。
+
+

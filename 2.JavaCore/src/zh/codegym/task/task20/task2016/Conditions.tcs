@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task20.task2016"\n\n最少的更改
+
+通过最少的代码更改来实现序列化 C 类。
+
+
+Требования:
+1.	Solution 类必须包含 A 类。
+2.	Solution 类必须包含 B 类。
+3.	Solution 类必须包含 C 类。
+4.	B 类必须是 A 类的后代。
+5.	C 类必须是 B 类的后代。
+6.	A 类应支持 Serializable 接口。
+7.	B 类不应显式支持 Serializable 接口。
+8.	C 类不应显式支持 Serializable 接口。
+
+

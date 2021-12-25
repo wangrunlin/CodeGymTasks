@@ -1,0 +1,15 @@
+taskKey="zh.codegym.task.task20.task2003"\n\n引入 properties
+
+在 fillInPropertiesMap 方法中，从控制台读取文件名，使用该文件中的数据填充 properties 映射。
+你可以在此读取有关 .properties 的信息：http://en.wikipedia.org/wiki/.properties
+实现 properties 映射的文件 IO 的逻辑。
+
+
+Требования:
+1.	fillInPropertiesMap 方法必须从控制台读取数据。
+2.	fillInPropertiesMap 方法必须创建 FileInputStream，将读取的字符串作为参数传递。
+3.	fillInPropertiesMap 方法应调用 load 方法，将新创建的 FileInputStream 作为参数传递。
+4.	save 方法必须将 properties 映射存储到作为参数传递的 OutputStream 对象中。
+5.	load 方法必须从作为参数传递的 InputStream 对象中恢复 properties 映射的状态。
+
+

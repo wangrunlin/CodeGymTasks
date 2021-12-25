@@ -1,0 +1,14 @@
+taskKey="zh.codegym.task.task20.task2021"\n\n禁止序列化
+
+使用 NotSerializableException 阻止 SubSolution 类的序列化。
+不要更改方法签名。
+
+
+Требования:
+1.	Solution 类应支持 Serializable 接口。
+2.	SubSolution 类必须位于 Solution 类中。
+3.	SubSolution 类必须是 Solution 类的后代。
+4.	NotSerializableException 应在尝试序列化 SubSolution 对象时发生。
+5.	NotSerializableException 应在尝试反序列化 SubSolution 对象时发生。
+
+

@@ -1,0 +1,16 @@
+taskKey="zh.codegym.task.task20.task2005"\n\n奇怪的事情
+
+在读取/写入 Human 对象时发生奇怪的错误。
+弄明白发生什么问题并修复。
+
+
+Требования:
+1.	在 assets 列表为 null 时，save/load 方法中的读/写逻辑必须工作正常。
+2.	在 name 字段和 assets 列表不为 null 时，save/load 方法中的读/写逻辑必须工作正常。
+3.	Solution.Human 类不应支持 Serializable 接口。
+4.	Solution.Human 类必须为 public。
+5.	Solution.Human 类不应支持 Externalizable 接口。
+6.	equals 方法必须对两个相等的 Human 对象返回 true，对不同的对象返回 false。
+7.	hashCode 方法必须始终对相同的 Human 对象返回相同的值。
+
+
